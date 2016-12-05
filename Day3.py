@@ -8,7 +8,7 @@ for line in inLines:
    dimensions = list(map(int, dimensions))
    dimensions.sort()
 
-   if int(dimensions[0])+int(dimensions[1]) > int(dimensions[2]):
+   if dimensions[0]+dimensions[1] > dimensions[2]:
       count+=1
 
 print(count)
